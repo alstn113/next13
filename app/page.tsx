@@ -1,7 +1,7 @@
+import { BASE_URL } from '@/constants';
+
 const HomePage = async () => {
-  const data = await fetch('https://jsonplaceholder.typicode.com/todos/1').then(
-    (res) => res.json(),
-  );
+  const data = await fetch(`${BASE_URL}`).then((res) => res.json());
 
   return <div>{JSON.stringify(data)}</div>;
 };
