@@ -4,10 +4,16 @@ import Link from 'next/link';
 
 const Nav = () => {
   return (
-    <div className="flex gap-2 text-cyan-700">
-      <Link href={'/'}>Home</Link>
-      <Link href={'/posts'}>Post List</Link>
-      <Link href={'/posts/create'}>Create Post</Link>
+    <div className="flex gap-2 text-cyan-500">
+      <Link href={'/'} className="hover:underline">
+        Home
+      </Link>
+      <Link href={'/posts'} className="hover:underline">
+        Post List
+      </Link>
+      <Link href={'/posts/create'} className="hover:underline">
+        Create Post
+      </Link>
     </div>
   );
 };

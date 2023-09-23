@@ -37,32 +37,32 @@
           {
             "pattern": "{next*,next*/**}",
             "group": "external",
-            "position": "after"
+            "position": "before"
           },
           {
             "pattern": "{react*,react*/**}",
             "group": "external",
-            "position": "after"
+            "position": "before"
           },
           {
             "pattern": "@/app/**",
             "group": "internal",
-            "position": "after"
+            "position": "before"
           },
           {
             "pattern": "@/components/**",
             "group": "internal",
-            "position": "after"
+            "position": "before"
           },
           {
             "pattern": "@/hooks/**",
             "group": "internal",
-            "position": "after"
+            "position": "before"
           },
           {
             "pattern": "@/lib/**",
             "group": "internal",
-            "position": "after"
+            "position": "before"
           }
         ],
         "pathGroupsExcludedImportTypes": ["next, react, unknown"],
